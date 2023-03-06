@@ -1,0 +1,6 @@
+Challenge:
+1. Create a new folder called CSS-My Site.
+2. Create an index.html
+3. Add the HTML backbone and give your website a tittle of your name.
+4. Create a css folder and a styles.css file
+5. Link up your html and css and give the backround an ugly blue color
