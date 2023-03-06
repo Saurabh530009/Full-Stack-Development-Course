@@ -1,0 +1,24 @@
+body{
+    background-color:#E3DFFD;
+}
+
+hr{
+    background-color: white;  /* We do not see any effect of it */
+    border-style:none; 
+    /* still can not see the background color of the border because of 
+    the height of border is set to be 0 initially
+    */
+
+    /* OR */
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    height: 0px; 
+    width: 10%; /* This will automatically take 10% of the total width for horizontal line*/
+}
+h1,h2{
+    color:#E90064;
+}
+h3{
+    color:green;
+}
