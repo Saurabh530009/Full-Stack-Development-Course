@@ -1,0 +1,38 @@
+/* **************** Tag Selector ***************** */
+body{
+    margin: 0;
+}
+
+/* **************** Class Selector **************** */
+
+.container{
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.top-container{
+    width: 100px;
+    height: 100px;
+    background-color:red;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.middle-container{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.bottom-container{
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    position: fixed;
+}
+
+/* **************** ID Selector **************** */
+

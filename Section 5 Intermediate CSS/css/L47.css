@@ -1,0 +1,37 @@
+/* **************** Tag Selector ***************** */
+body{
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+}
+
+/* **************** Class Selector **************** */
+.top-container{
+    width: 200px;
+    height: 200px;
+    background-color:red;
+    display: inline-block;
+    position: relative;
+    left: 400px;
+}
+.middle-container{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+    right: 200px;
+    
+}
+.bottom-container{
+    width: 200px;
+    height: 200px;
+    background-color:yellow;
+    display: inline-block;
+    position: relative;
+    right: 200px;
+}
+
+/* **************** ID Selector **************** */
+
