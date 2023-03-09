@@ -1,0 +1,87 @@
+/**
+ * Welcome to the Stanford Karel IDE.
+ * This is a free space for you to 
+ * write any Karel program you want.
+ **/
+function main(){
+  /* cicle();
+  function to move from corners
+  */
+  
+  
+  /* putBeeper();
+  beeper();
+  function to put beeper at diagonal
+  */
+  
+  /*
+  beepersRight();
+   goUpTurnLeft();
+   beepersLeft();
+   goUpTurnRight();
+      beepersRight();
+   goUpTurnLeft();
+   beepersLeft();
+   goUpTurnRight();
+      beepersRight();
+      
+   beeper Putting pattern problem;
+   */
+}
+function beeper(){
+   beeperDiagonal();
+   beeperDiagonal();
+   beeperDiagonal();
+   beeperDiagonal();
+}
+function beeperDiagonal(){
+   move();
+   turnLeft();
+   move();
+   turnRight();
+   putBeeper();
+}
+   
+function cicle(){
+   moveCircle();
+   moveCircle();
+   moveCircle();
+   moveCircle();
+}
+function moveCircle(){
+   move();
+   move();
+   move();
+   move();
+   turnLeft();
+}
+function goUpTurnRight() {
+   turnRight();
+   move();
+   turnRight();
+}
+ 
+function goUpTurnLeft() {
+   turnLeft();
+   move();
+   turnLeft();
+}
+ 
+function beepersRight() {
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();  
+}
+ 
+function beepersLeft() {
+   move();
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+}
