@@ -1,0 +1,16 @@
+/* **************** Tag Selector ***************** */
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* **************** Class Selector **************** */
+.container-fluid {
+  padding: 3% 15%;
+}
+/* **************** ID Selector **************** */
+
+#title {
+  background-color: #ff4c68;
+}

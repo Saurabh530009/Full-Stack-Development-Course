@@ -14,13 +14,17 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
     <section id="title">
       <!-- Nav Bar -->
-      <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="">Tindog</a>
         <button
           class="navbar-toggler"
@@ -51,14 +55,17 @@
 
       <!-- Title -->
 
-      <div>
-        <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button">Download</button>
+          <button type="button">Download</button>
+        </div>
+         <div class="col-lg-6"> 
+          <img src="images/iphone6.png" alt="iphone-mockup" />
+        </div>
       </div>
-      <div>
-        <img src="images/iphone6.png" alt="iphone-mockup" />
-      </div>
+    <div>
     </section>
 
     <!-- Features -->
