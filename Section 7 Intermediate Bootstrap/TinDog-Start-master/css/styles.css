@@ -8,6 +8,12 @@ h1 {
   font-weight: bold;
   line-height: 1.5;
 }
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
 h3 {
   font-family: "Montserrat-Bold";
   font-weight: bold;
@@ -24,6 +30,7 @@ p {
   width: 60%;
   transform: rotate(25deg);
 }
+
 /* **************** ID Selector **************** */
 
 #title {
@@ -73,4 +80,44 @@ p {
 /* hover is sudo class */
 .icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonial section */
+#testimonials{
+  
+  text-align: center;
+  background-color:#ef8172;
+  color: white;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+/* Press section */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom:3%;
+}
+
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+  
 }
