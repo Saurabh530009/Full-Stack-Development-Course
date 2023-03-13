@@ -4,7 +4,12 @@ body {
   text-align: center;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat-Bold";
 }
 
@@ -14,13 +19,13 @@ p {
 
 /* Heading */
 
-.big-heading{
+.big-heading {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-.section-heading{
+.section-heading {
   font-size: 4rem;
   line-height: 1.5;
 }
@@ -31,12 +36,12 @@ p {
 }
 
 /* Section */
-.colored-section{
+.colored-section {
   background-color: #ff4c68;
   color: #fff;
 }
-.white-section{
-  background-color:#fff;
+.white-section {
+  background-color: #fff;
 }
 
 /* Navigation Bar */
@@ -60,9 +65,9 @@ p {
 }
 /*  Title Section  */
 
-#title .container-fluid{
+#title .container-fluid {
   padding: 3% 15% 7%;
-  text-align:left;
+  text-align: left;
 }
 
 /* Download Buttons */
@@ -81,11 +86,11 @@ p {
 #features {
   background-color: white;
   font-weight: bold;
-  position:relative;
+  position: relative;
   /* z-index: 1; */
 }
 
-.feature-title{
+.feature-title {
   font-size: 1.5rem;
 }
 /* Icon section */
@@ -101,56 +106,61 @@ p {
 }
 
 /* Testimonial section */
-#testimonials{
-  background-color:#ef8172;
+#testimonials {
+  background-color: #ef8172;
 }
 
-.testimonial-image{
+.testimonial-image {
   border-radius: 100%;
   width: 10%;
   margin: 20px;
 }
-.testimonial-text{
+.testimonial-text {
   font-size: 3rem;
-  line-height: 1.5 ;
+  line-height: 1.5;
 }
 
 /* Press section */
-#press{
+#press {
   background-color: #ef8172;
-  padding-bottom:3%;
+  padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
   width: 10%;
   margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
 
-#pricing{
+#pricing {
   padding: 100px;
 }
-.pricing-column{
+.pricing-column {
   padding: 3% 2%;
 }
-.price-text{
+.price-text {
   font-size: 4rem;
   line-height: 1.5;
 }
 
 /* Footer section */
-.social-icon{
+.social-icon {
   margin: 20px 10px;
 }
 
 /* Media Query  */
-@media (max-width:990px){
-  #title{
+@media (max-width: 990px) {
+  #title {
     text-align: center;
   }
-  .title-img{
+  .title-img {
     position: static;
     transform: rotate(0);
+    width: 30%;
+  }
+  .div-title-img{
+    display: flex;
+    justify-content: center;
   }
 }
