@@ -1,0 +1,22 @@
+div{
+    height:100px;
+    width:100px;
+    border:1px solid;
+    position:absolute;
+}
+.red{
+    background-color:red;
+    z-index:1;
+}
+.yellow{
+    background-color:yellow;
+    margin-left:20px;
+    margin-top:20px;
+    z-index:0;
+}
+.blue{
+    background-color:blue;
+    margin-left:40px;
+    margin-top:40px;
+    z-index:-1;
+}
