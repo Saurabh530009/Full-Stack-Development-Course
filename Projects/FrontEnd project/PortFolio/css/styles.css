@@ -1,6 +1,67 @@
-.navbar-item{
-    padding: 0 0.3rem;
+body {
+  font-family: "Montserrat";
+  text-align: center;
 }
-img{
-    border-radius: 100%;
+h2{
+    padding: 2%;
+}
+img {
+  border-radius: 50%;
+  /* float: right; */
+}
+
+/* Home Page */
+.colored-heading{
+    background-color:#FFBFA9;
+}
+.navbar {
+  padding: 0 2rem 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/* About Section */
+.about-section{
+    /* background-color: #FFEBB4; */
+    padding: 3% 20%;
+}
+
+/* Education Section */
+.education-section{
+    background-color: #FBFFB1;
+    padding: 2% 5%;
+}
+
+
+/* Project Section */
+.project-section{
+    background-color: #FFEBB4;
+    padding: 1rem 2rem;
+}
+.col{
+    padding: 0.5%;
+}
+
+/* Skills section */
+.skill-section{
+    background-color: #FBFFB1;
+}
+.in-line_position{
+    display: inline-block;
+    width: 16%;
+}
+
+/* footer section */
+.contact-section{
+    background-color: #FFBFA9;
+    padding: 15px;
+}
+
+.social-icon {
+  margin: 20px 10px;
 }

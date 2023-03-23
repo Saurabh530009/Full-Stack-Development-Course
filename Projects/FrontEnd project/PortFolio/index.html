@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <title>PortFolio Website Project</title>
 
-    <!-- Linking css file -->
+    <!-- ! Favicon -->
+    <link rel="icon" href="images/favicon.ico" />
+
+    <!-- ! Linking css file -->
     <link rel="stylesheet" href="css/styles.css" />
 
-    <!-- Bootstrap Scripts included -->
+    <!-- ! Bootstrap Scripts included -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,25 +18,30 @@
       crossorigin="anonymous"
     />
 
-    <!-- Javascript included -->
+    <!-- ! Javascript included -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
 
-    <!-- Including google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- ! Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap"
       rel="stylesheet"
     />
+
+    <!-- ! For Button Icon form fontawesome site -->
+    <script
+      src="https://kit.fontawesome.com/80fe8fcdef.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <section id="title">
-      <!-- Nav bar -->
-      <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <!-- ! Home page-->
+    <section class="colored-heading" id="title">
+      <!-- ! Nav bar -->
+      <nav class="navbar navbar-expand-md navbar-light">
         <h1 class="navbar-brand" href="">Saurabh</h1>
         <button
           class="navbar-toggler"
@@ -41,7 +49,7 @@
           data-bs-toggle="collapse"
           data-bs-target="#navbarScroll"
           aria-controls="navbarScroll"
-          aria-expanded="false"
+          aria-expanded="true"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
@@ -49,117 +57,219 @@
 
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul class="navbar-nav ms-auto">
-            <li class="navbar-item"><a class="nav-link" href=""></a> About</li>
             <li class="navbar-item">
-              <a class="nav-link" href=""></a> Education
+              <a class="nav-link" href="#title">Home</a>
             </li>
             <li class="navbar-item">
-              <a class="nav-link" href=""></a> Projects
+              <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="navbar-item"><a class="nav-link" href=""></a> Skills</li>
             <li class="navbar-item">
-              <a class="nav-link" href=""></a> Contacts
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#skill">Skills</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link" href="#contact">Contacts</a>
             </li>
           </ul>
         </div>
       </nav>
+      <!-- ! About section-->
+      <section class="about-section" id="about">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Hi, I'm Saurabh Kumar Verma</h3>
+            <p>
+              This is my official PortFolio website to show all my details,
+              knowledge and experience in Software Development
+            </p>
+            <button class="btn btn-md btn-outline-danger">Download CV</button>
+          </div>
+          <div class="col-md-6">
+            <img src="images/Saurabh.jpg" alt="saurabh-img" height="220px" />
+          </div>
+        </div>
+      </section>
     </section>
 
-    <section id="about">
-        <img src="images/Saurabh.jpg" alt="saurabh-img" height="100px">
-        <h2>I,m Saurabh Kumar Verma</h2>
-        <p>This is my official PortFolio website to shows all my details, knowledge and experience in Software Development</p>
-        <button class="btn btn-lg btn-outline-danger">Download CV</button>
+    <!-- ! Education section -->
+    <section class="education-section" id="education">
+      <h2>Educations</h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h5>Course</h5>
+          </div>
+          <div class="col">
+            <h5>Institute</h5>
+          </div>
+          <div class="col">
+            <h5>Year of Passing</h5>
+          </div>
+          <div class="col">
+            <h5>Result</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">B.Tech-Chemical(Major), CSE(Minor)</div>
+          <div class="col">IIT Jammu</div>
+          <div class="col">2023</div>
+          <div class="col">8.19 CGPA</div>
+        </div>
+        <div class="row">
+          <div class="col">12th Standard</div>
+          <div class="col">B.N.S. School</div>
+          <div class="col">2018</div>
+          <div class="col">87.8 %</div>
+        </div>
+        <div class="row">
+          <div class="col">10th Standard</div>
+          <div class="col">B.N.S. School</div>
+          <div class="col">2016</div>
+          <div class="col">10 CGPA</div>
+        </div>
+      </div>
     </section>
-    <section id="education">
-        <h2>Educations</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Course</th>
-                    <th>Institute</th>
-                    <th>Year of Passing</th>
-                    <th>Result</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>B.Tech- Chemical(Major), CSE(Minor)</td>
-                    <td>IIT Jammu</td>
-                    <td>2023</td>
-                    <td>8.19 CGPA</td>
-                </tr>
-                <tr>
-                    <td>12th Standard</td>
-                    <td>B.N.S. School</td>
-                    <td>2018</td>
-                    <td>87.8 %</td>
-                </tr>
-                <tr>
-                    <td>10th Standard</td>
-                    <td>B.N.S. School</td>
-                    <td>2016</td>
-                    <td>10 CGPA</td>
-                </tr>
-            </tbody>
-        </table>
+
+    <!-- ! Projection Section -->
+    <section class="project-section" id="project">
+      <h2>Projects</h2>
+      <div id="testimonial-carousel" class="carousel" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h5>Face Recognition for Smart Attendance Management</h5>
+            <h6>Developer (Jun 2022 - Jul 2022)</h6>
+            <p>
+              Developed an OpenCV model in python for attendance management.
+            </p>
+
+            <p>
+              Enhanced the system efficiency by recognizing a person's face and
+              marking their attendance
+            </p>
+
+            <p>Implemented LBPH algorithm to the model</p>
+
+            <p>
+              <a href="https://github.com/SaurabhIITiann/FaceRecognition"
+                >Project Link</a
+              >
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h5>Tea Leaf Disease Classification</h5>
+            <h6>Developer, Self (Jul 2022 - Nov 2022)</h6>
+            <p>Implemented this model using the CNN approach.</p>
+            <p>
+              Augmented the data horizontally, and vertically, rotated the data
+              at some angle, etc due to less data availability.
+            </p>
+            <p>Achieved validation accuracy 86%</p>
+            <p>
+              <a
+                href="https://github.com/SaurabhIITiann/Tea-Leaf-Disease-detection"
+                >Project Link</a
+              >
+            </p>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
-    <section id="project"></section>
-    <section id="skills">
+
+    <!-- ! Skills Section -->
+    <section class="skill-section" id="skill">
       <h2>Skills</h2>
-      <table>
-        <tr>
-          <h5>Programming Languages</h5>
-          <ul>
-            <li>C\C++</li>
-            <li>Python</li>
-            <li>Java</li>
-          </ul>
-        </tr>
-        <tr>
-          <h5>Web Development</h5>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>Javascript</li>
-          </ul>
-        </tr>
+      <div id="testimonial-carousel-skills" class="carousel" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h5>Programming Languages</h5>
+            <p class="in-line_position">C\C++</p>
+            <p class="in-line_position">Python</p>
+            <p class="in-line_position">Java</p>
+            <br />
+            <br />
+            <h5>Web Development</h5>
+            <p class="in-line_position">HTML</p>
+            <p class="in-line_position">CSS</p>
+            <p class="in-line_position">Bootstrap</p>
+            <p class="in-line_position">Javascript</p>
+          </div>
 
-        <tr>
-          <h5>Courses</h5>
-          <ul>
-            <li>Data Structure and Algorithm</li>
-            <li>DBMS</li>
-            <li>Operating System</li>
-            <li>Computer Networks</li>
-            <li>Deep Learning</li>
-          </ul>
-        </tr>
-
-        <tr>
-          <h5>Miscellaneous</h5>
-          <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>Matlab</li>
-            <li>VS Code</li>
-            <li>Windows</li>
-            <li>Linux</li>
-          </ul>
-        </tr>
-        <!-- <tbody>
-          <tr>
-            <td>C++</td>
-          </tr>
-        </tbody> -->
-      </table>
+          <div class="carousel-item">
+            <h5>Courses</h5>
+            <p class="in-line_position">DSA</p>
+            <p class="in-line_position">DBMS</p>
+            <p class="in-line_position">OS</p>
+            <p class="in-line_position">CN</p>
+            <p class="in-line_position">DL</p>
+            <br />
+            <br />
+            <h5>Miscellaneous</h5>
+            <p class="in-line_position">Git</p>
+            <p class="in-line_position">GitHub</p>
+            <p class="in-line_position">Matlab</p>
+            <p class="in-line_position">VS Code</p>
+            <p class="in-line_position">Windows</p>
+            <p class="in-line_position">Linux</p>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel-skills"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel-skills"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </section>
-    <section id="contact"></section>
-    <!-- Including jQuery -->
+
+    <!-- ! Footer/Contact section -->
+    <section class="contact-section" id="contact">
+      <i class="social-icon fa-brands fa-linkedin"></i>
+      <i class="social-icon fa-brands fa-whatsapp"></i>
+      <i class="social-icon fa-brands fa-instagram"></i>
+      <i class="social-icon fa-brands fa-facebook"></i>
+      <i class="social-icon fa-solid fa-envelope"></i>
+      <i class="social-icon fa-brands fa-github"></i>
+      <p>© Copyright Saurabh</p>
+    </section>
+    <!-- ! Including jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
-    <!-- Including javascript file -->
+    <!-- ! Including javascript file -->
     <link rel="stylesheet" href="js/index.js" />
   </body>
 </html>
